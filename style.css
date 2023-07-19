@@ -240,9 +240,103 @@ font-weight: 600;
    left: -75px;
     
 }
-/* play game instanly section has been finished */
+/* play game instanly section has been finished */  
+/* type of game section has been started */
+.type-of-game{ 
+    width: 70%;
+    margin: 90px auto 0;
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+    align-items: center; 
+    justify-content: center;
+}
+.type-of-game img{ 
+    width: 25px; 
+    padding: 5px 5px;
+} 
+.type-of-game button{ 
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #FFF; 
+} 
+.type-of-game button:hover{ 
+    border-radius: 20px ; 
+    border: 1px solid #F948B2; 
+    color: #F948B2;
+} 
+/* type of game section has been finished */
 
+/* footer section has been started */  
+footer{ 
+    width: 100%;
+    margin-top: 50px; 
+    background-color: black;
+    min-height: 55vh;
+}
+.footer-title{ 
+    display: flex;
+    padding: 20px 5px;
+    align-items: center;
+    gap: 15px; 
+    color: #FFF;
+    justify-content: center; 
+    
+}
+.footer-title img{ 
+    width: 40px;
+    height: 25px;
+} 
+.footer-description{ 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color: #FFF; 
+} 
+.footer-description p{ 
+    font-size: 13px; 
+    font-weight: 300px; 
+    margin-right: 14px;
+} 
+.footer-icon{ 
+    color: white;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+} 
+.footer-icon i{ 
+    padding: 0px 10px;
+} 
+.p-tag{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.p-tag p{ 
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Work Sans;
+    font-size: 10px;
+    font-weight: 200; 
+    margin-right: 10px; 
+    padding: 5px 0px;
+} 
+.last-part{ 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 
+} 
+.last-part p{ 
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Work Sans;
+    font-size: 10px;
+    font-weight: 300;
+} 
+/* footer section has been finished */
 /* responsive for mobile */
 @media screen and (max-width:576px) {
 
@@ -281,6 +375,32 @@ font-weight: 600;
     .img2{ 
         top: 150px;
         left: -40px;
+    } 
+    .type-of-game{ 
+        display: grid; 
+        grid-template-columns: repeat(3,1fr);
+        gap: 15px;
+        width: 90%;
+    } 
+    .type-of-game button{ 
+        font-size: 10px; 
+        
+    } 
+    .type-of-game button:hover{ 
+        border-radius: 20px ; 
+        border: 1px solid #F948B2; 
+        color: #F948B2;
+    } 
+    .footer-description{ 
+        display: grid; 
+        grid-template-columns: repeat(3,1fr); 
+        padding-left: 40px;
+    } 
+    .p-tag{ 
+        display: grid; 
+        grid-template-columns: repeat(2,1fr);  
+        padding-left: 70px;
+           
     }
 } 
 
